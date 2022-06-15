@@ -15,7 +15,9 @@ paste in the fastapi example from https://fastapi.tiangolo.com/
 
 
 teminal -> pip freeze > requirements.txt
+
 docker build -t python-fastapi
+
 docker build -t python-fastapi .
 
 in main.py :
