@@ -1,14 +1,9 @@
-# Python Script in Docker - generate random film details
 
-Dockerfile needs to be specified.  order is important!
+FastAPI 
+python3 -m venv venv
+. venv/bin/activate
 
-In terminal - 
-
-check docker version  : docker -v
-docker build -t python-imdb
-docker build -t python-imdb . 
-
-
-if you have user input in main.py 
-dock run -t -i python-imdb
-
+pip install fastapi
+pip install uvicorn
+create main.py
+paste in the fastapi example from https://fastapi.tiangolo.com/
