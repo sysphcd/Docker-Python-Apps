@@ -1,4 +1,4 @@
-# Python in Docker - generate random film details
+# Python Script in Docker - generate random film details
 
 Dockerfile needs to be specified.  order is important!
 
